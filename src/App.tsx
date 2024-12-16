@@ -3,7 +3,7 @@ function App() {
     <>
       <h2>lib de hooks</h2>
     </>
-  );
+  )
 }
 
-export default App;
+export default App

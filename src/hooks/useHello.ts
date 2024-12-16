@@ -1,10 +1,7 @@
-import * as React from 'react';
+import * as React from 'react'
 
 export const useHello = () => {
-    const [state, setState] = React.useState("");
+  const [state, setState] = React.useState('')
 
-    return [
-        state,
-        setState
-    ]
-};
+  return [state, setState]
+}
