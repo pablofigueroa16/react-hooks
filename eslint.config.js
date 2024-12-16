@@ -7,14 +7,8 @@ import eslintPluginPrettier from 'eslint-plugin-prettier/recommended'
 /** @type {import('eslint').Linter.Config[]} */
 export default [
   {
+    ignores: ['**/node_modules/**', '**/dist/**', '**/*.test.ts'],
     files: ['**/*.{js,mjs,cjs,ts,jsx,tsx}'],
-    ignores: [
-      '**/node_modules/**',
-      '**/dist/**',
-      '**/*.test.ts',
-      'eslint.config.ts',
-      'vite.config.ts',
-    ],
   },
   {
     languageOptions: {
